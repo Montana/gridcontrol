@@ -6,6 +6,8 @@ var GridControl = require('./src/');
 
 if (require.main === module) {
   var conf = {};
+  
+  var Prowl = require('./src/')
 
   if (process.env.GRID)
     conf.namespace = process.env.GRID;
