@@ -1,4 +1,3 @@
-
 if (!process.env.DEBUG)
   process.env.DEBUG = "gc:*";
 
@@ -22,6 +21,3 @@ if (require.main === module) {
 module.exports = GridControl;
 
 module.exports.client = require('./grid-api/');
-
-//var Tools = require('./src/lib/tools.js');
-//Tools.readConf(function(err, conf) {
